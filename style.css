@@ -1,0 +1,239 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        direction: rtl;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        padding: 0px 200px;
+    }
+    
+    .nav img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .b {
+        background-color: #279b47;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    
+    .nav-item .nav-link {
+        font-size: 20px;
+        margin: 10px;
+        padding: 0px 100px;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding: 0px 150px;
+        margin: 10px;
+        position: relative;
+        top: 10px;
+    }
+    
+    h3 {
+        position: relative;
+        width: 200px;
+        padding: 5px;
+        transition: .7s ease;
+    }
+    
+    h3:hover {
+        border-bottom: 2px solid green;
+    }
+    
+    .content .im {
+        width: 280px;
+        height: 100px;
+    }
+    
+    img {
+        width: 550px;
+        height: 350px;
+        margin-top: 10px;
+    }
+    
+    .content .n {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15%;
+        margin-left: 20px;
+    }
+    
+    .content a {
+        width: 100%;
+    }
+    
+    .content p {
+        margin: 15px;
+    }
+    
+    .article {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        gap: 20px;
+        padding: 0px 150px;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .article p {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        word-spacing: 10px;
+    }
+    
+    .ar {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    h4 {
+        padding: 10px;
+        width: 50%;
+        margin: 10px;
+    }
+    
+    .article img {
+        border-radius: 20px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .article .ca {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px;
+    }
+    
+    .we {
+        text-align: center;
+        padding: 0px 200px;
+        margin: 20px;
+        font-size: 30px;
+        color: #279b47;
+        position: relative;
+        right: 30%;
+    }
+    
+    .article .ca a {
+        padding: 15px;
+        width: 50%;
+        margin-right: 35px;
+    }
+    
+    .bodcast {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .fgr {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        font-weight: 600;
+        padding: 15px;
+        margin: 10px;
+        width: 80%;
+        border-radius: 20px;
+        border: 2px solid #279b47;
+        transition: .7s ease;
+    }
+    
+    .fgr:hover {
+        transform: scale(1.1);
+    }
+    
+    span {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        color: #279b47;
+    }
+    
+    .bodcast p {
+        width: 450px;
+        text-align: center;
+        font-size: 15px;
+        word-spacing: 2px;
+        margin: 10px;
+        color: #279b47;
+    }
+    
+    audio {
+        display: block;
+        padding: 10px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 200px;
+        align-items: center;
+        align-content: center;
+        margin-top: 30px;
+        background-color: orangered;
+        height: 200px;
+    }
+    
+    footer ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        border: 1px solid black;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    .icon {
+        display: inline-block;
+    }
+    
+    .icon i {
+        margin: 10px;
+        font-size: 20px;
+        color: #279b47;
+        border: 1px solid black;
+        padding: 15px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+    
+    .icon i:hover {
+        background-color: black;
+        color: #fff;
+    }
